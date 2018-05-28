@@ -12,8 +12,10 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script type="text/javascript" src="app.js"></script>
 
-  <title>SpaaaaaaaaaaDavid</title>
+  <title>SpaDavid</title>
 </head>
+
+<body>
 
 
 <div id="startscreen">
@@ -37,16 +39,16 @@
 <content>
   <section class="section1">
     <section class="hello">
-    <h1><span id="small">Hello </span>SPADA</h1>
-    <h1>SPADAVID</h1>
-    <h1><span id="small">I'm </span>DAVID</h1>
+    <h1><div class="hidden" id="small">Hello </div> SPADA</h1>
+    <h1 class="anim">SPADAVID</h1>
+    <h1><div class="hidden" id="small2">I'm </div> DAVID</h1>
     <div class="middle">
       <a href=".section2" class="button"><i class="fas fa-angle-double-down"></i></a>
     </div>
     </section>
   </section>
   <section class="section2">
-    <h1>VOUS</h1>
+    <h1>VOUS - Vibrate 2 pas marcher</h1>
     <section class="middletext">
         <p>... cherchez des stagiaires qui connaissent notamment :</p>
         <ul class="fa-ul">
@@ -103,7 +105,7 @@
   </section>
   <section class="section5">
     <h1>CONTACT</h1>
-    <section class="contact">
+    <div class="contact">
       <form class="form" action="#" method="post">
         <p><label for="name" class="testname">Nom :</label>
   			<input type="text" id="name" placeholder="Doe" required>
@@ -114,7 +116,7 @@
         <p><label class="testname" for="message">Message :</label>
   			<textarea name="message" id="message" required>Bonjour David, je vous contacte concernant ...</textarea>
         </p>
-  	  	<button id="envoi" class="envoi">Envoyer</button>
+  	  	<button class="envoi">Envoyer</button>
     	</form>
       <div class="social">
         <a href="https://www.linkedin.com/in/david-thewissen/"><i class="fab fa-linkedin fa-6x"></i></a>
@@ -125,6 +127,7 @@
       <div class="middle">
         <a href=".section1" class="button"><i class="fas fa-angle-double-up"></i></a>
       </div>
-    </section>
+    </div>
   </section>
 </content>
+</body>

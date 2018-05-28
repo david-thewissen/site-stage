@@ -9,6 +9,18 @@ $(document).ready(function() {
     setTimeout(function() {
       $("#button").attr("id", "menu");
     }, 1);
+    setTimeout(function() {
+      $("#small").addClass("roll-in-right");
+      $(".roll-in-right").removeClass("hidden");
+    },1500);
+    setTimeout(function() {
+      $("#small2").addClass("slide-in-left");
+      $(".slide-in-left").removeClass("hidden");
+    },2000);
+    setTimeout(function() {
+      $(".anim").addClass("focus-in-expand");
+      $(".focus-in-expand").removeClass("anim");
+    },3000);
   });
 
   $("#menuClose, #menuContent a").click(function() {
