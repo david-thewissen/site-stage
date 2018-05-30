@@ -18,11 +18,16 @@ $(document).ready(function() {
       $(".slide-in-left").removeClass("hidden");
     },2000);
     setTimeout(function() {
-      $(".anim").addClass("focus-in-expand");
-      $(".focus-in-expand").removeClass("anim");
+      $(".hidden").addClass("focus-in-expand");
+      $(".focus-in-expand").removeClass("hidden");
     },3000);
   });
+  $(".visible2").click(function() {
+    $(".visible2").addClass("hidden3");
+    $(".hidden2").addClass("focus-in-contract-bck");
+    $(".focus-in-contract-bck").removeClass("hidden2");
 
+  });
   $("#menuClose, #menuContent a").click(function() {
     $("#menu").removeClass("menuTransition");
     $("#menuContent").fadeOut(300);
