@@ -15,5 +15,5 @@ if (isset($_POST['submit'])) {
   'X-Mailer: PHP/' . phpversion();
 
   mail($to, $subject, $message, $headers);
-
+}
  ?>
