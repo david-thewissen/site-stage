@@ -316,7 +316,7 @@ p,li{
   color: #cb3e59;
   text-decoration: none;
 }
-#form{
+.form{
   width: 27em;
   background-color: #4ab29e;
   margin-right: auto;
@@ -330,14 +330,14 @@ p,li{
   border-radius: 1em;
 }
 
-#form p{
+.form p{
   margin-top : 0.5em;
 }
-#form input{
+.form input{
   height:2em;
   width: 15vw;
 }
-#form textarea {
+.form textarea {
   width: 15vw;
   height:5em;
   margin-top: 1.5em;
