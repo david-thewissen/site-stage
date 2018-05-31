@@ -44,6 +44,11 @@ $(document).ready(function() {
 
 });
 
+
+function formanswers()
+{
+    document.getElementById('form').action = "mailto:david.thewissen@gmail.com?subject=" + "Nom : " + document.getElementById('nom').value  + document.getElementById('message').value;
+}
 $(document).on("click", "#menu", function() {
   $("#menu").addClass("menuTransition");
   $("#menuContent").delay(500).fadeIn(1);
