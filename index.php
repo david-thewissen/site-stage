@@ -34,7 +34,8 @@ return $data;
        $form_mail .= "Message : $message\n";
 
        mail("david.thewissen@gmail.com","Contact Stage","$form_mail","From: $nom");
-
+       // $message = "merci";
+       // echo "<script type='text/javascript'>alert('$message');</script>";
      }
 
  ?>
@@ -61,7 +62,9 @@ return $data;
 
 
 <div id="startscreen">
-  <div id="title">Welcome, have a seat !</div>
+  <div id="title">Welcome !</div>
+  <p>  <div id="title2">Have a seat and click the &lt;button&gt;  </div></p>
+
   <div id="triangle-down"></div>
   <div id="triangle-up"></div>
   <button id="button">⟷</button>
@@ -81,18 +84,18 @@ return $data;
 <div>
   <section class="section1">
     <section class="hello">
-    <h1><div class="hidden" id="small">Hello </div> SPADA</h1>
+    <h1><div class="hidden" id="small">Hello </div> <div class="invisible"> SPADA</div></h1>
     <h1 class="hidden">SPADAVID</h1>
-    <h1><div class="hidden" id="small2">I'm </div> DAVID</h1>
+    <h1><div class="hidden" id="small2">I'm </div> <div class="invisible1"> DAVID</div></h1>
     <div class="middle">
-      <a href=".section2" class="button"><i class="fas fa-angle-double-down"></i></a>
+      <a href=".section2" class="button1"><i class="fas fa-angle-double-down"></i></a>
     </div>
     </section>
   </section>
   <section class="section2">
     <h2  class="vibrate-3">VOUS</h2>
     <div class="middletext">
-        <p>... cherchez des stagiaires qui connaissent notamment :</p>
+        <p>... cherchez des stagiaires qui connaissent notamment ces technologies :</p>
         <ul class="fa-ul">
           <li class="faa-parent animated-hover"><span class="fa-li faa-horizontal"><i class="fas fa-check-square "></i></span>HTML/CSS</li>
           <li class="faa-parent animated-hover"><span class="fa-li faa-horizontal"><i class="fas fa-check-square "></i></span>PHP</li>
@@ -100,28 +103,28 @@ return $data;
           <li class="faa-parent animated-hover"><span class="fa-li faa-horizontal"><i class="fas fa-check-square "></i></span>JQuery</li>
           <li class="faa-parent animated-hover"><span class="fa-li faa-horizontal"><i class="fas fa-check-square "></i></span>WordPress</li>
         </ul>
-        <p>Ca tombe bien : graçe à BeCode, j'ai appris ces technologies, et plus encore !</p>
-        <p>Si je suis amené à faire un stage chez vous, je me pencherai sur Bootstrap, MODX et Prestashop</p>
-      <div class="middle">
+        <p>&#199;a tombe bien : graçe à BeCode, je suis en train de les apprendre, et plus encore !</p>
+        <p>Si je suis amené à faire un stage chez vous, je me pencherai sur Bootstrap, MODX et Prestashop durant la suite de ma formation.</p>
+        <div class="space"></div>
+        <div class="middle">
         <a href=".section3" class="button"><i class="fas fa-angle-double-down"></i></a>
-
-      </div>
+        </div>
     </div>
   </section>
   <section class="section3">
-    <h2 class="vibrate-3">MOI</h2>
+    <h2 class="text-flicker-in-glow">MOI</h2>
     <div class="middletext">
-      <p>Lors <a title="Communication digitale au CEPEGRA de Gosselies" class="link" target="_blank" href="https://formation-cepegra.be/formation/responsable-de-communication-web/">
-        d’une précédente formation</a> j’ai eu des cours de référencement, marketing et écriture web, gestion de projet web ...</p>
-      <p>De plus à BeCode, j’ai ete formé à MySQL, React, Git et j’ai participé à la refonte du site du Musée de la Photographie de Mont/Sur/Marchienne (à paraître bientôt)</p>
+      <p>Lors <a target="_blank" href="https://formation-cepegra.be/formation/responsable-de-communication-web/" class="couponcode">d’une précédente formation,<span class="tooltip">Communication digitale au CEPEGRA de Gosselies</a></span>
+        </a> j’ai eu des cours de référencement, marketing et écriture web, gestion de projet web ...</p>
+      <p>De plus à BeCode, j’ai aussi été formé à MySQL, React, Git et j’ai participé à la refonte du site du Musée de la Photographie de Mont/Sur/Marchienne (à paraître bientôt).</p>
       <h3>Soft skills : </h3>
       <ul class="fa-ul">
         <li class="faa-parent animated-hover"><span class="fa-li faa-spin"><i class="fas fa-thumbs-up "></i></span>Sociable et dynamique</li>
         <li class="faa-parent animated-hover"><span class="fa-li faa-spin"><i class="fas fa-thumbs-up "></i></span>Résistant au stress</li>
         <li class="faa-parent animated-hover"><span class="fa-li faa-spin"><i class="fas fa-thumbs-up "></i></span>Assertif</li>
         <li class="faa-parent animated-hover"><span class="fa-li faa-spin"><i class="fas fa-thumbs-up "></i></span>Curieux</li>
-
       </ul>
+      <div class="space"></div>
       <div class="middle">
       <a href=".section4" class="button"><i class="fas fa-angle-double-down"></i></a>
       </div>
@@ -134,13 +137,16 @@ return $data;
       <h3>Pourquoi je pense qu’on ferait une bonne équipe :
       </h3>
       <ul class="fa-ul">
-        <li class="big faa-parent animated-hover"><span class="fa-li faa-spin">
+        <li class="big faa-parent animated-hover"><span class="fa-li faa-passing">
           <i class="fas fa-check"></i></span>Je suis sociable mais plus à l’aise dans de petites structures</li>
-        <li class="big faa-parent animated-hover"><span class="fa-li faa-spin">
+        <li class="big faa-parent animated-hover"><span class="fa-li faa-passing">
           <i class="fas fa-check"></i></span>J'ai envie de participer au developpement digital de Charleroi</li>
-        <li class="big faa-parent animated-hover"><span class="fa-li faa-spin">
-          <i class="fas fa-check"></i></span>J’aime bien vos créations et le type de clients (SwitchCoWorking, ImproCarolo, Centre Culturel de Farciennes, Pouic Pouic, ...)</li>
+        <li class="big faa-parent animated-hover"><span class="fa-li faa-passing">
+          <i class="fas fa-check"></i></span>J’aime bien vos créations et le type de clients (par ex: SwitchCoWorking, ImproCarolo, Centre Culturel de Farciennes, Pouic Pouic, ...) avec lesquels vous travaillez</li>
+        <li class="big faa-parent animated-hover"><span class="fa-li faa-passing">
+          <i class="fas fa-check"></i></span>Vous m'avez été recommandé par un ami (Alessio Fancello)</li>
       </ul>
+      <div class="space"></div>
       <div class="middle">
         <a href=".section5" class="button"><i class="fas fa-angle-double-down"></i></a>
       </div>
@@ -152,11 +158,11 @@ return $data;
     <h2 class="wobble-hor-bottom">CONTACT</h2>
     <div class="contact">
       <form class="form" action="index.php" method="post" >
-        <p><label for="name" class="testname">Nom :</label>
-          <input type="text" placeholder="Doe" name="name" id="name"required>
-        </p>
         <p><label for="firstname" class="testname">Prénom :</label>
           <input type="text" placeholder="Jane" name="firstname" id="firstname"required>
+        </p>
+        <p><label for="name" class="testname">Nom :</label>
+          <input type="text" placeholder="Doe" name="name" id="name"required>
         </p>
         <p><label class="testname" for="email">Mail :</label>
   			  <input type="email" id="mail" name="mail"  placeholder="jane.doe@mail.com" required>
@@ -164,14 +170,14 @@ return $data;
         <p><label class="testname" for="message">Message :</label>
     			<textarea name="message" id="message" required>Bonjour David, je vous contacte concernant ...</textarea>
         </p>
-  	  	<input type="submit" class="envoi"  name="submit"  value="Envoyer">
+  	  	<input type="submit" class="envoi" id="add"  name="submit"  value="Envoyer">
     	</form>
       <div class="social">
-        <a href="https://www.linkedin.com/in/david-thewissen/"><i class="fab fa-linkedin fa-6x"></i></a>
-        <a href="https://github.com/david-thewissen"><i class="fab fa-github-square fa-6x"></i></a>
-        <a href="mailto:david.thewissen@gmail.com"><i class="fas fa-envelope-square fa-6x"></i></a>
+        <a target="_blank" href="https://www.linkedin.com/in/david-thewissen/"><i title="Profil LinkedIn" class="fab fa-linkedin fa-5x"></i></a>
+        <a target="_blank" href="https://github.com/david-thewissen"><i title="Profil GitHub" class="fab fa-github-square fa-5x"></i></a>
+        <a target="_blank" href="https://www.facebook.com/david.thewissen"><i title="Profil Facebook" class="fab fa-facebook-square fa-5x"></i></a>
       </div>
-      <h3>PS : j'apporterai du ...<div class="hidden2"> CHOCOLAT ! ! !</div> <div class="visible2">CLICK ME </div> </h3>
+      <h3>PS : j'apporterai du ...<div class="hidden2"><i class="fas fa-gift"></i> CHOCOLAT <i class="fas fa-heart"></i></div> <div class="visible2"> &lt;CLICK ME&gt; </div> </h3>
       <div class="middlend">
         <a href=".section1" class="button"><i class="fas fa-angle-double-up"></i></a>
       </div>
