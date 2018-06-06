@@ -6,10 +6,60 @@
 
 body, html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 1em;
+  font-size: 16px;
   height: 100%;
   background-color: #008080;
   width: 100%;
+}
+
+@media screen and (min-width: 960px) {
+    body{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 959px) and (min-width: 600px) {
+    body{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 599px) and (min-width: 300px) {
+    body{
+        font-size: 8px;
+    }
+    input{
+      min-width: 30vw;
+      height: 20vh;
+
+    }
+    textarea{
+      min-width: 50vw;
+    }
+    .space{
+      display:none;
+    }
+    a.button {
+      font-size: 4vh;
+      padding: 1vh 1.5vw 1vh 1.5vw ;
+      text-decoration: none;
+
+    }
+    .section5 a.button {
+      font-size: 4vh;
+      padding: 1vh 1.5vw 1vh 1.5vw ;
+    }
+
+    a.button1 {
+      font-size: 4vh;
+      padding: 1vh 1.5vw 1vh 1.5vw ;
+    }
+    form{
+      min-height: 30em;
+    }
+
+
+
 }
 
 li {
@@ -110,7 +160,7 @@ section h3{
   opacity: 1;
   width: 11vh;
   height: 11vh;
-  bottom: 200px;
+  bottom: 11vh;
   left: calc(50% - 5.5vh);
   background-color:#A92D45;
   border: none;
@@ -232,8 +282,8 @@ section h3{
 }
 
 #menu.toMenu {
-  left: 80px;
-  bottom: 80px;
+  left: 4.5vw;
+  bottom: 4.5vw;
   background-color: #16a085;
   font-size : 3vh;
   opacity: 1;
@@ -273,7 +323,7 @@ section{
   background-color:#329999 ;
 }
 .section5{
-  background-color:#008080;
+  background-color: #4ab29e;
 }
 
 .middle{
@@ -300,6 +350,17 @@ a.button {
   color: #8fc4ba;
   font-size: 34px;
   background: #cb3e59;
+  padding: 15px 30px 15px 30px;
+  text-decoration: none;
+  /* position: fixed;
+  bottom: 0; */
+}
+.section5 a.button {
+  border-radius: 50%;
+  box-shadow: 1px 3px 3px #666666;
+  color: #8fc4ba;
+  font-size: 34px;
+  background: #d6667c;
   padding: 15px 30px 15px 30px;
   text-decoration: none;
   /* position: fixed;
@@ -345,7 +406,7 @@ p,li{
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0em;
-  background-color: #008080
+  background-color:  #4ab29e ;
 }
 .faa-parent{
   width: 15em;
@@ -354,12 +415,12 @@ p,li{
   width: 30em;
 }
 .link{
-  color: #cb3e59;
+  color: #d6667c;
   text-decoration: none;
 }
 .form{
   width: 27em;
-  background-color: #4ab29e;
+  background-color:#8ecec1;
   margin-right: auto;
   margin-left: auto;
   margin-top: 1.5em;
@@ -367,7 +428,7 @@ p,li{
   height: 20em;
   font-size: 1.4em;
   line-height: 1.5;
-  border: 0.2em solid #cb3e59;
+  border: 0.2em solid #d6667c;
   border-radius: 1em;
 }
 
@@ -397,7 +458,7 @@ p,li{
   display:block;
   text-decoration:none;
   border-radius:0.5em;
-  border:solid 0.15em #b24a5e;
+  border:solid 0.15em #d6667c;
   text-align:center;
   color: #cb3e59;
   background-color: transparent;
@@ -420,16 +481,19 @@ p,li{
   margin-bottom: 0em;
 }
 .social a{
-  color: #cb3e59;
+  color: #d6667c;
   margin: 5em;
   margin-bottom: 0em;
 }
+
+/* cacher bannière webhost*/
+img[src*="https://cdn.rawgit.com/000webhost/logo/e9bd13f7/footer-powered-by-000webhost-white2.png"] { display: none;}
 
 /* ------------------------------------------------------------------------
  TOOLTIP :
  ------------------------------------------------------------------------ */
 .couponcode {
-  color: #cb3e59;
+  color: #d6667c;
   text-decoration: none;
   cursor: pointer;
 }
