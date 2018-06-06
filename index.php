@@ -22,6 +22,8 @@ $data = htmlspecialchars($data);
 return $data;
 }
 }
+ini_set("SMTP", "aspmx.l.google.com");
+ini_set("sendmail_from", "YOURMAIL@gmail.com");
 
      /* pas oublier ce if .. sinon le formulaire s'envoie auto dés qu'on charge mla page, sans données */
      if (isset($_POST['submit'])) {
@@ -34,9 +36,14 @@ return $data;
        $form_mail .= "Message : $message\n";
 
        mail("david.thewissen@gmail.com","Contact Stage","$form_mail","From: $nom");
+       echo "Check your email now....<BR/>";
        // $message = "merci";
        // echo "<script type='text/javascript'>alert('$message');</script>";
      }
+
+
+
+
 
  ?>
 
@@ -112,7 +119,7 @@ return $data;
     </div>
   </section>
   <section class="section3">
-    <h2 class="text-flicker-in-glow">MOI</h2>
+    <h2 class="text-flicker-in-glow">MOI Tooltip en haut</h2>
     <div class="middletext">
       <p>Lors <a target="_blank" href="https://formation-cepegra.be/formation/responsable-de-communication-web/" class="couponcode">d’une précédente formation,<span class="tooltip">Communication digitale au CEPEGRA de Gosselies</a></span>
         </a> j’ai eu des cours de référencement, marketing et écriture web, gestion de projet web ...</p>
