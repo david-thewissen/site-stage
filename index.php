@@ -23,7 +23,7 @@ return $data;
 }
 }
 ini_set("SMTP", "aspmx.l.google.com");
-ini_set("sendmail_from", "YOURMAIL@gmail.com");
+ini_set("sendmail_from", "david.thewissen@gmail.com");
 
      /* pas oublier ce if .. sinon le formulaire s'envoie auto dés qu'on charge mla page, sans données */
      if (isset($_POST['submit'])) {
