@@ -45,7 +45,7 @@ return $data;
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="shortcut icon" href="mini-icon.png" />
+  <link rel="shortcut icon" href="favicon.png" />
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Dosis|Open+Sans" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -53,7 +53,7 @@ return $data;
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script type="text/javascript" src="script.js"></script>
 
-  <title>SpaDavid</title>
+  <title>David Thewissen</title>
 </head>
 
 <body>
@@ -82,8 +82,8 @@ return $data;
 <div>
   <section class="section1">
     <section class="hello">
-    <h1><div class="hidden" id="small">Hello </div> <div class="invisible"> SPADA</div></h1>
-    <h1 class="hidden">SPADAVID</h1>
+    <h1><div class="hidden" id="small">Hello </div> <div class="invisible"> WORLD</div></h1>
+    <h1 class="hidden">Web Dev</h1>
     <h1><div class="hidden" id="small2">I'm </div> <div class="invisible1"> DAVID</div></h1>
     <div class="middle">
       <a href=".section2" class="button1"><i class="fas fa-angle-double-down"></i></a>
@@ -93,16 +93,18 @@ return $data;
   <section class="section2">
     <h2  class="vibrate-3">VOUS</h2>
     <div class="middletext">
-        <p>... cherchez des stagiaires qui connaissent notamment ces technologies :</p>
+        <p>... cherchez peut-être des stagiaires qui connaissent ces languages/outils :</p>
         <ul class="fa-ul">
           <li class="faa-parent animated-hover"><span class="fa-li faa-horizontal"><i class="fas fa-check-square "></i></span>HTML/CSS</li>
-          <li class="faa-parent animated-hover"><span class="fa-li faa-horizontal"><i class="fas fa-check-square "></i></span>PHP</li>
-          <li class="faa-parent animated-hover"><span class="fa-li faa-horizontal"><i class="fas fa-check-square "></i></span>JavaScript</li>
-          <li class="faa-parent animated-hover"><span class="fa-li faa-horizontal"><i class="fas fa-check-square "></i></span>JQuery</li>
+          <li class="faa-parent animated-hover"><span class="fa-li faa-horizontal"><i class="fas fa-check-square "></i></span>PHP/MySQL</li>
+          <li class="faa-parent animated-hover"><span class="fa-li faa-horizontal"><i class="fas fa-check-square "></i></span>JavaScript/JQuery/React</li>
           <li class="faa-parent animated-hover"><span class="fa-li faa-horizontal"><i class="fas fa-check-square "></i></span>WordPress</li>
+          <li class="faa-parent animated-hover"><span class="fa-li faa-horizontal"><i class="fas fa-check-square "></i></span>Bootstrap</li>
+          <li class="faa-parent animated-hover"><span class="fa-li faa-horizontal"><i class="fas fa-check-square "></i></span>Git/Github</li>
+          
         </ul>
         <p>&#199;a tombe bien : graçe à BeCode, je suis en train de les apprendre, et plus encore !</p>
-        <p>Si je suis amené à faire un stage chez vous, je me pencherai sur Bootstrap, MODX et Prestashop durant la suite de ma formation.</p>
+        <p>Si je suis amené à venir chez vous, je me pencherai sur les technologies que vous utilisez avant le début du stage.</p>
         <div class="space"></div>
         <div class="middle">
         <a href=".section3" class="button"><i class="fas fa-angle-double-down"></i></a>
@@ -114,7 +116,7 @@ return $data;
     <div class="middletext">
       <p>Lors <a target="_blank" href="https://formation-cepegra.be/formation/responsable-de-communication-web/" class="couponcode">d’une précédente formation,<span class="tooltip">Communication digitale au CEPEGRA de Gosselies</a></span>
         </a> j’ai eu des cours de référencement, marketing et écriture web, gestion de projet web ...</p>
-      <p>De plus à BeCode, j’ai aussi été formé à MySQL, React, Git et j’ai participé à la refonte du site du Musée de la Photographie de Mont/Sur/Marchienne (à paraître bientôt).</p>
+      <p>De plus à BeCode, j’ai aussi été formé à  React, Git et j’ai participé à la refonte du site du Musée de la Photographie de Mont/Sur/Marchienne (à paraître bientôt).</p>
       <h3>Soft skills : </h3>
       <ul class="fa-ul">
         <li class="faa-parent animated-hover"><span class="fa-li faa-spin"><i class="fas fa-thumbs-up "></i></span>Sociable et dynamique</li>

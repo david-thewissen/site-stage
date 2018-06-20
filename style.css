@@ -12,56 +12,6 @@ body, html {
   width: 100%;
 }
 
-@media screen and (min-width: 960px) {
-    body{
-        font-size: 16px;
-    }
-}
-
-@media screen and (max-width: 959px) and (min-width: 600px) {
-    body{
-        font-size: 12px;
-    }
-}
-
-@media screen and (max-width: 599px) and (min-width: 300px) {
-    body{
-        font-size: 8px;
-    }
-    input{
-      min-width: 30vw;
-      height: 20vh;
-
-    }
-    textarea{
-      min-width: 50vw;
-    }
-    .space{
-      display:none;
-    }
-    a.button {
-      font-size: 4vh;
-      padding: 1vh 1.5vw 1vh 1.5vw ;
-      text-decoration: none;
-
-    }
-    .section5 a.button {
-      font-size: 4vh;
-      padding: 1vh 1.5vw 1vh 1.5vw ;
-    }
-
-    a.button1 {
-      font-size: 4vh;
-      padding: 1vh 1.5vw 1vh 1.5vw ;
-    }
-    form{
-      min-height: 30em;
-    }
-
-
-
-}
-
 li {
   font-size: 0.6em;
   font-weight: 500;
@@ -156,7 +106,7 @@ section h3{
 #button,
 #menu {
   position: fixed;
-  z-index: 2;
+  z-index:2;
   opacity: 1;
   width: 11vh;
   height: 11vh;
@@ -167,7 +117,7 @@ section h3{
   border-radius: 50%;
   font-family: 'Dosis', sans-serif;
   color: white;
-  font-size: 4em;
+  font-size: 3em;
   transition: transform .5s ease-in-out;
   cursor: pointer;
   -webkit-box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.5);
@@ -205,7 +155,7 @@ section h3{
   height: 100%;
   color: #b92b42;
   display: -webkit-flex;
-  display: flex;
+  display: block;
   -webkit-flex-direction: column;
   flex-direction: column;
   -webkit-justify-content: center;
@@ -221,7 +171,7 @@ section h3{
 }
 
 #menuContent li {
-  margin-bottom: 20px;
+  margin-bottom: 2vh;
   animation: itemsInefade 2s forwards;
   opacity: 0;
 }
@@ -1356,5 +1306,112 @@ h1.focus-in-expand {
   100% {
     opacity: 1;
     text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+}
+@media screen and (min-width: 960px) {
+    body{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 959px) and (min-width: 660px) {
+    body{
+        font-size: 12px;
+    }
+    .middletext{
+      width: 75%;
+      margin : 3vh auto 0vh auto;
+
+    }
+    .middletext h3{
+      font-size: 1.5em;
+      margin-bottom: 0.75em;
+    }
+    input, textarea{
+      min-width: 50%;
+    }
+}
+
+@media screen and (max-width: 660px) and (min-width: 320px) {
+    body{
+        font-size: 10px;
+    }
+    input{
+      min-width:75%;
+      height: 20vh;
+    }
+    p{
+      font-size: 1.3em;
+    }
+    textarea{
+      min-width: 50vw;
+    }
+    section h3{
+      padding-top: 1vh;
+    }
+    .space{
+      display:none;
+    }
+    ul.fa-ul{
+      font-size: 1.1em;
+    }
+    #add{
+      margin: 0.2em auto;
+    }
+
+    a.button {
+      font-size: 4vh;
+      padding: 1vh 5vw 1vh 5vw ;
+      text-decoration: none;
+
+    }
+    .section5 a.button {
+      font-size: 4vh;
+      padding: 1vh 5vw 1vh 5vw ;
+    }
+
+    a.button1 {
+      font-size: 4vh;
+      padding: 1vh 5vw 1vh 5vw ;
+    }
+    .contact{
+      max-height: 50em;
+    }
+    .social{
+      font-size: 0.8em;
+      width: 9%;
+      float: right;
+      position: relative;
+      top: 0;
+      margin-bottom: 50em;
+    }
+    .form{
+      min-height: 26em;
+      float: left;
+      width: 89%;
+      margin: 0.5em;
+    }
+    .middletext{
+      width: 85%;
+      margin : 2vh auto 0vh auto;
+
+    }
+    .middletext h3{
+      font-size: 1.25em;
+      margin-bottom: 0.5em;
+    }
+  }
+@media screen and (max-width: 319px) and (min-width: 150px)   {
+  body{
+      font-size:8px;
+  }
+  .middletext{
+    width: 85%;
+    margin : 2vh auto 0vh auto;
+
+  }
+  .middletext h3{
+    font-size: 1.25em;
+    margin-bottom: 0.5em;
   }
 }

@@ -95,9 +95,7 @@ $(document).on("click", "#menu", function() {
 //        alert("Formulaire envoyé");
 //     });
 // });
-$(".form").submit(function(){
-    alert("Submitted");
-});
+
 
 
 
