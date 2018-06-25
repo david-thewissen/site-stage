@@ -13,7 +13,7 @@ $(document).ready(function() {
       $("#button").attr("id", "menu");
     }, 1);
 
-    //apparition Hello Spada
+    //apparition Hello ...
     setTimeout(function() {
       $("#small").addClass("roll-in-right");
       $(".roll-in-right").removeClass("hidden");
@@ -43,7 +43,7 @@ $(document).ready(function() {
       $('.scale-out-center').removeAttr('id');
     },4000);
 
-    // apparition Spadavid
+    // apparition your future...
     setTimeout(function() {
       $(".hidden").addClass("focus-in-expand");
       $(".focus-in-expand").removeClass("hidden");

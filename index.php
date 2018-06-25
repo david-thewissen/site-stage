@@ -82,9 +82,9 @@ return $data;
 <div>
   <section class="section1">
     <section class="hello">
-    <h1><div class="hidden" id="small">Hello </div> <div class="invisible"> WORLD</div></h1>
-    <h1 class="hidden">Web Dev</h1>
-    <h1><div class="hidden" id="small2">I'm </div> <div class="invisible1"> DAVID</div></h1>
+    <h1><div class="hidden" id="small">Hello </div> <div class="invisible"> Ryle Software</div></h1>
+    <h1 class="hidden">Your future trainee ?</h1>
+    <h1><div class="hidden" id="small2">I'm </div> <div class="invisible1"> David</div></h1>
     <div class="middle">
       <a href=".section2" class="button1"><i class="fas fa-angle-double-down"></i></a>
     </div>
@@ -98,14 +98,13 @@ return $data;
           <li class="faa-parent animated-hover"><span class="fa-li faa-horizontal"><i class="fas fa-check-square "></i></span>HTML/CSS</li>
           <li class="faa-parent animated-hover"><span class="fa-li faa-horizontal"><i class="fas fa-check-square "></i></span>PHP/MySQL</li>
           <li class="faa-parent animated-hover"><span class="fa-li faa-horizontal"><i class="fas fa-check-square "></i></span>JavaScript/JQuery/React</li>
-          <li class="faa-parent animated-hover"><span class="fa-li faa-horizontal"><i class="fas fa-check-square "></i></span>WordPress</li>
+          <li class="faa-parent animated-hover"><span class="fa-li faa-horizontal"><i class="fas fa-check-square "></i></span>WordPress/Drupal</li>
           <li class="faa-parent animated-hover"><span class="fa-li faa-horizontal"><i class="fas fa-check-square "></i></span>Bootstrap</li>
           <li class="faa-parent animated-hover"><span class="fa-li faa-horizontal"><i class="fas fa-check-square "></i></span>Git/Github</li>
-          
+
         </ul>
-        <p>&#199;a tombe bien : graçe à BeCode, je suis en train de les apprendre, et plus encore !</p>
-        <p>Si je suis amené à venir chez vous, je me pencherai sur les technologies que vous utilisez avant le début du stage.</p>
-        <div class="space"></div>
+        <p>&#199;a tombe bien, graçe à BeCode, je suis en train de les apprendre, et plus encore : BeCode nous apprends aussi à être autonomes dans l'apprentissage de nouveaux languages. Je me pencherai sur les technologies que vous utilisez avant le début du stage !</p>
+
         <div class="middle">
         <a href=".section3" class="button"><i class="fas fa-angle-double-down"></i></a>
         </div>
@@ -115,14 +114,17 @@ return $data;
     <h2 class="text-flicker-in-glow">MOI</h2>
     <div class="middletext">
       <p>Lors <a target="_blank" href="https://formation-cepegra.be/formation/responsable-de-communication-web/" class="couponcode">d’une précédente formation,<span class="tooltip">Communication digitale au CEPEGRA de Gosselies</a></span>
-        </a> j’ai eu des cours de référencement, marketing et écriture web, gestion de projet web ...</p>
-      <p>De plus à BeCode, j’ai aussi été formé à  React, Git et j’ai participé à la refonte du site du Musée de la Photographie de Mont/Sur/Marchienne (à paraître bientôt).</p>
+      </a> j’ai eu des cours de référencement, marketing ditital, écriture web, gestion de projet web ...</p>
+      <p>Chez BeCode, j’ai participé à la refonte du site WordPress du Musée de la Photographie de Mont/Sur/Marchienne (à paraître bientôt).</p>
+
       <h3>Soft skills : </h3>
       <ul class="fa-ul">
         <li class="faa-parent animated-hover"><span class="fa-li faa-spin"><i class="fas fa-thumbs-up "></i></span>Sociable et dynamique</li>
         <li class="faa-parent animated-hover"><span class="fa-li faa-spin"><i class="fas fa-thumbs-up "></i></span>Résistant au stress</li>
         <li class="faa-parent animated-hover"><span class="fa-li faa-spin"><i class="fas fa-thumbs-up "></i></span>Assertif</li>
         <li class="faa-parent animated-hover"><span class="fa-li faa-spin"><i class="fas fa-thumbs-up "></i></span>Curieux</li>
+        <li class="faa-parent animated-hover"><span class="fa-li faa-spin"><i class="fas fa-thumbs-up "></i></span>Autonome</li>
+
       </ul>
       <div class="space"></div>
       <div class="middle">
@@ -142,10 +144,11 @@ return $data;
         <li class="big faa-parent animated-hover"><span class="fa-li faa-passing">
           <i class="fas fa-check"></i></span>J'ai envie de participer au developpement digital de Charleroi</li>
         <li class="big faa-parent animated-hover"><span class="fa-li faa-passing">
-          <i class="fas fa-check"></i></span>J’aime bien vos créations et le type de clients (par ex: SwitchCoWorking, ImproCarolo, Centre Culturel de Farciennes, Pouic Pouic, ...) avec lesquels vous travaillez</li>
+          <i class="fas fa-check"></i></span>J’aime bien vos créations et le type de clients avec lesquels vous travaillez (par ex: T-Shirt Mania, Namur In The Sky, Casa Della Nonna)</li>
         <li class="big faa-parent animated-hover"><span class="fa-li faa-passing">
-          <i class="fas fa-check"></i></span>Vous m'avez été recommandé par un ami (Alessio Fancello)</li>
+
       </ul>
+      <div class="space"></div>
       <div class="space"></div>
       <div class="middle">
         <a href=".section5" class="button"><i class="fas fa-angle-double-down"></i></a>

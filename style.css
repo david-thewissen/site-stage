@@ -1353,7 +1353,14 @@ h1.focus-in-expand {
       display:none;
     }
     ul.fa-ul{
-      font-size: 1.1em;
+      font-size: 0.9em;
+      width: 80%;
+    }
+    ul.fa-ul:nth-child(3){
+      font-size: 0.75em;
+    }
+    li.big{
+      max-width: 100%;
     }
     #add{
       margin: 0.2em auto;
@@ -1384,6 +1391,7 @@ h1.focus-in-expand {
       position: relative;
       top: 0;
       margin-bottom: 50em;
+      margin-right: 5em;
     }
     .form{
       min-height: 26em;
