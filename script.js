@@ -90,12 +90,6 @@ $(document).on("click", "#menu", function() {
 });
 
 
-// $(document).ready(function(){
-//    $("#add").on('click', function(){
-//        alert("Formulaire envoyé");
-//     });
-// });
-
 
 
 

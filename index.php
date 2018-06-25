@@ -32,7 +32,7 @@ return $data;
        $form_mail .= "Email : $mail\n";
        $form_mail .= "Message : $message\n";
 
-       mail("david.thewissen@gmail.com","Contact Stage","$form_mail","From: $nom");
+       mail("david.thewissen@gmail.com","Contact stage","$form_mail","De : $nom");
        // $message = "merci";
        // echo "<script type='text/javascript'>alert('$message');</script>";
      }
@@ -103,7 +103,8 @@ return $data;
           <li class="faa-parent animated-hover"><span class="fa-li faa-horizontal"><i class="fas fa-check-square "></i></span>Git/Github</li>
 
         </ul>
-        <p>&#199;a tombe bien, graçe à BeCode, je suis en train de les apprendre, et plus encore : BeCode nous apprends aussi à être autonomes dans l'apprentissage de nouveaux languages. Je me pencherai sur les technologies que vous utilisez avant le début du stage !</p>
+        <p>&#199;a tombe bien, graçe à BeCode, je suis en train de les apprendre, et plus encore : </p>
+          <p>BeCode nous apprends aussi à être autonomes dans l'apprentissage de nouveaux languages. Je me pencherai sur les technologies que vous utilisez avant le début du stage !</p>
 
         <div class="middle">
         <a href=".section3" class="button"><i class="fas fa-angle-double-down"></i></a>
